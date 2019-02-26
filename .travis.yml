@@ -10,7 +10,7 @@ install:
 
 script: 
   - python -m unittest discover -v ./
-  - coverage run ./pytest.py
+  - coverage run ./mytests.py
 
 after_success:
   - codecov
