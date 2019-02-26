@@ -5,6 +5,12 @@ python:
   - "3.3"
 
 install:
+  - pip install codecov
+  - pip install coverage
 
 script: 
   - python -m unittest discover -v ./
+  - coverage run ./pytest.py
+
+after_success:
+  - codecov
