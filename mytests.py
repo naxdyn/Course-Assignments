@@ -19,4 +19,4 @@ class TestMyFunc(unittest.TestCase):
         self.assertEqual(myfunctions.halve(4), 2)
 
 if __name__ == '__main__':
-unittest.main()
+    unittest.main()
