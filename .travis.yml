@@ -12,5 +12,6 @@ script:
   - python -m unittest discover -v ./
   - coverage run ./mytests.py
 
+# codecov runs after travis ci tests succeed
 after_success:
   - codecov
