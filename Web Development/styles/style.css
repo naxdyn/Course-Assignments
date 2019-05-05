@@ -1,0 +1,17 @@
+header {text-align:center;}
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+figure {margin: 5px; padding: 5px; border: 1px solid black;}
+.container article{margin: 5px; padding: 5px; border: 1px solid black;}
+
+
